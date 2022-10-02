@@ -12,8 +12,9 @@ set cursorline
 set cursorcolumn
 
 " For Tab Spacing
-set shiftwidth=4
 set tabstop=4
+set shiftwidth=4
+set expandtab
 set autoindent
 
 " While Searching
@@ -21,10 +22,8 @@ set incsearch
 set hlsearch
 
 " Color Scheme
-"colorscheme material 
-set termguicolors
-let ayucolor="dark"
-colorscheme ayu
+set background=dark
+colorscheme gruvbox
 
 
 syntax on
