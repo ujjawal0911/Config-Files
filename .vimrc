@@ -2,6 +2,8 @@
 set nocompatible
 set number
 set relativenumber
+set nowrap
+filetype plugin indent on
 
 " For Filetypes
 filetype on
@@ -28,3 +30,6 @@ colorscheme gruvbox
 
 syntax on
 
+execute pathogen#infect()
+" PLUGINS USED
+" - commentary.vim
